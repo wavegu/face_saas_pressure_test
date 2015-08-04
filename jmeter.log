@@ -1,0 +1,136 @@
+2015/08/04 01:51:37 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: Loading user properties from: /home/xtgu/apache-jmeter-2.13/bin/user.properties 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: Loading system properties from: /home/xtgu/apache-jmeter-2.13/bin/system.properties 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: Copyright (c) 1998-2015 The Apache Software Foundation 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: Version 2.13 r1665067 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: java.version=1.7.0_76 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: os.name=Linux 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: os.arch=amd64 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: os.version=3.2.0-29-generic 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: JMeterHome=/home/xtgu/apache-jmeter-2.13 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: user.dir  =/home/xtgu/apache-jmeter-2.13/saas_pressure_test 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: PWD       =/home/xtgu/apache-jmeter-2.13/saas_pressure_test 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: IP: 192.168.0.170 Name: ficussuzhou FullName: ficussuzhou 
+2015/08/04 01:51:37 INFO  - jmeter.services.FileServer: Default base='/home/xtgu/apache-jmeter-2.13/saas_pressure_test' 
+2015/08/04 01:51:37 INFO  - jmeter.services.FileServer: Set new base='/home/xtgu/apache-jmeter-2.13/saas_pressure_test/jmeter_jmx' 
+2015/08/04 01:51:37 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2015/08/04 01:51:37 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2015/08/04 01:51:37 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1656252 
+2015/08/04 01:51:37 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.8 
+2015/08/04 01:51:37 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2015/08/04 01:51:37 INFO  - jmeter.save.SaveService: Loading file: jmeter_jmx/Jmeter_conf_three_watermarks_12.jmx 
+2015/08/04 01:51:37 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2015/08/04 01:51:37 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2015/08/04 01:51:37 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2015/08/04 01:51:37 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2015/08/04 01:51:37 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2015/08/04 01:51:37 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2015/08/04 01:51:37 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2015/08/04 01:51:37 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2015/08/04 01:51:37 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2015/08/04 01:51:37 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2015/08/04 01:51:37 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2015/08/04 01:51:37 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2015/08/04 01:51:37 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2015/08/04 01:51:37 INFO  - jmeter.JMeter: Running test (1438624297969) 
+2015/08/04 01:51:38 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2015/08/04 01:51:38 INFO  - jmeter.engine.StandardJMeterEngine: Starting 12 threads for group Thread Group. 
+2015/08/04 01:51:38 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2015/08/04 01:51:38 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 12 ramp-up 0 perThread 0.0 delayedStart=false 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2015/08/04 01:51:38 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2015/08/04 01:51:38 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2015/08/04 01:51:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2015/08/04 01:51:38 INFO  - jmeter.services.FileServer: Stored: ../jmeter_cluster/three_watermarks.cluster 
+2015/08/04 01:51:38 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Maximum connection retries = 10 
+2015/08/04 01:51:38 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2015/08/04 01:51:38 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2015/08/04 01:51:38 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2015/08/04 01:51:38 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2015/08/04 01:52:00 INFO  - jmeter.reporters.Summariser: summary +     16 in  22.2s =    0.7/s Avg:  5175 Min:   998 Max: 22070 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:52:30 INFO  - jmeter.reporters.Summariser: summary +     26 in  30.1s =    0.9/s Avg: 10931 Min:  1101 Max: 52160 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:52:30 INFO  - jmeter.reporters.Summariser: summary =     42 in  52.3s =    0.8/s Avg:  8738 Min:   998 Max: 52160 Err:     0 (0.00%) 
+2015/08/04 01:53:00 INFO  - jmeter.reporters.Summariser: summary +     29 in  30.2s =    1.0/s Avg: 17304 Min:  1108 Max: 64244 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:53:00 INFO  - jmeter.reporters.Summariser: summary =     71 in  82.5s =    0.9/s Avg: 12237 Min:   998 Max: 64244 Err:     0 (0.00%) 
+2015/08/04 01:53:28 ERROR - jmeter.protocol.http.sampler.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 400 for URL: http://192.168.0.16:11189/face/v1/application/identity_verification/user/upload_database_image_batch 
+2015/08/04 01:53:28 ERROR - jmeter.protocol.http.sampler.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 400 for URL: http://192.168.0.16:11189/face/v1/application/identity_verification/user/upload_database_image_batch 
+2015/08/04 01:53:28 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Error Response Code: 400 
+2015/08/04 01:53:31 INFO  - jmeter.reporters.Summariser: summary +     23 in    31s =    0.7/s Avg:  9448 Min:  2349 Max: 60056 Err:     1 (4.35%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:53:31 INFO  - jmeter.reporters.Summariser: summary =     94 in   113s =    0.8/s Avg: 11555 Min:   998 Max: 64244 Err:     1 (1.06%) 
+2015/08/04 01:54:01 INFO  - jmeter.reporters.Summariser: summary +     26 in    31s =    0.9/s Avg: 17267 Min:  1030 Max: 50713 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:54:01 INFO  - jmeter.reporters.Summariser: summary =    120 in   144s =    0.8/s Avg: 12792 Min:   998 Max: 64244 Err:     1 (0.83%) 
+2015/08/04 01:54:32 INFO  - jmeter.reporters.Summariser: summary +     26 in    31s =    0.8/s Avg: 11097 Min:  1093 Max: 59843 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:54:32 INFO  - jmeter.reporters.Summariser: summary =    146 in   175s =    0.8/s Avg: 12491 Min:   998 Max: 64244 Err:     1 (0.68%) 
+2015/08/04 01:55:00 INFO  - jmeter.reporters.Summariser: summary +     25 in  27.4s =    0.9/s Avg: 16251 Min:  1062 Max: 61260 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:55:00 INFO  - jmeter.reporters.Summariser: summary =    171 in   202s =    0.8/s Avg: 13040 Min:   998 Max: 64244 Err:     1 (0.58%) 
+2015/08/04 01:55:31 INFO  - jmeter.reporters.Summariser: summary +     24 in  31.4s =    0.8/s Avg: 11907 Min:  1083 Max: 52429 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:55:31 INFO  - jmeter.reporters.Summariser: summary =    195 in   233s =    0.8/s Avg: 12901 Min:   998 Max: 64244 Err:     1 (0.51%) 
+2015/08/04 01:56:00 INFO  - jmeter.reporters.Summariser: summary +     29 in    30s =    1.0/s Avg: 18825 Min:  1020 Max: 58376 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:56:00 INFO  - jmeter.reporters.Summariser: summary =    224 in   263s =    0.9/s Avg: 13668 Min:   998 Max: 64244 Err:     1 (0.45%) 
+2015/08/04 01:56:30 INFO  - jmeter.reporters.Summariser: summary +     24 in    30s =    0.8/s Avg: 12668 Min:  1132 Max: 36309 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:56:30 INFO  - jmeter.reporters.Summariser: summary =    248 in   293s =    0.8/s Avg: 13571 Min:   998 Max: 64244 Err:     1 (0.40%) 
+2015/08/04 01:57:04 INFO  - jmeter.reporters.Summariser: summary +     29 in    34s =    0.9/s Avg: 11543 Min:  3895 Max: 36794 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:57:04 INFO  - jmeter.reporters.Summariser: summary =    277 in   326s =    0.8/s Avg: 13359 Min:   998 Max: 64244 Err:     1 (0.36%) 
+2015/08/04 01:57:31 INFO  - jmeter.reporters.Summariser: summary +     24 in  27.1s =    0.9/s Avg:  9481 Min:  1122 Max: 37275 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:57:31 INFO  - jmeter.reporters.Summariser: summary =    301 in   354s =    0.9/s Avg: 13049 Min:   998 Max: 64244 Err:     1 (0.33%) 
+2015/08/04 01:58:00 INFO  - jmeter.reporters.Summariser: summary +     24 in    29s =    0.8/s Avg:  9031 Min:  1010 Max: 39762 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:58:00 INFO  - jmeter.reporters.Summariser: summary =    325 in   382s =    0.9/s Avg: 12753 Min:   998 Max: 64244 Err:     1 (0.31%) 
+2015/08/04 01:58:31 INFO  - jmeter.reporters.Summariser: summary +     27 in    32s =    0.9/s Avg: 19945 Min:  1123 Max: 85376 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:58:31 INFO  - jmeter.reporters.Summariser: summary =    352 in   414s =    0.9/s Avg: 13304 Min:   998 Max: 85376 Err:     1 (0.28%) 
+2015/08/04 01:59:01 INFO  - jmeter.reporters.Summariser: summary +     28 in    30s =    0.9/s Avg: 13131 Min:   993 Max: 68545 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:59:01 INFO  - jmeter.reporters.Summariser: summary =    380 in   443s =    0.9/s Avg: 13292 Min:   993 Max: 85376 Err:     1 (0.26%) 
+2015/08/04 01:59:30 INFO  - jmeter.reporters.Summariser: summary +     17 in  29.4s =    0.6/s Avg:  4953 Min:  1028 Max: 28270 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 01:59:30 INFO  - jmeter.reporters.Summariser: summary =    397 in   473s =    0.8/s Avg: 12935 Min:   993 Max: 85376 Err:     1 (0.25%) 
+2015/08/04 02:00:00 INFO  - jmeter.reporters.Summariser: summary +     31 in  29.3s =    1.1/s Avg: 25498 Min:  1009 Max: 91159 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 02:00:00 INFO  - jmeter.reporters.Summariser: summary =    428 in   502s =    0.9/s Avg: 13845 Min:   993 Max: 91159 Err:     1 (0.23%) 
+2015/08/04 02:00:30 INFO  - jmeter.reporters.Summariser: summary +     24 in    31s =    0.8/s Avg:  5987 Min:  1029 Max: 28409 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 02:00:30 INFO  - jmeter.reporters.Summariser: summary =    452 in   533s =    0.8/s Avg: 13427 Min:   993 Max: 91159 Err:     1 (0.22%) 
+2015/08/04 02:01:01 INFO  - jmeter.reporters.Summariser: summary +     30 in    31s =    1.0/s Avg: 19734 Min:  1140 Max: 62928 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 02:01:01 INFO  - jmeter.reporters.Summariser: summary =    482 in   563s =    0.9/s Avg: 13820 Min:   993 Max: 91159 Err:     1 (0.21%) 
+2015/08/04 02:01:30 INFO  - jmeter.reporters.Summariser: summary +     24 in  29.1s =    0.8/s Avg:  9032 Min:  1081 Max: 34927 Err:     0 (0.00%) Active: 12 Started: 12 Finished: 0 
+2015/08/04 02:01:30 INFO  - jmeter.reporters.Summariser: summary =    506 in   592s =    0.9/s Avg: 13593 Min:   993 Max: 91159 Err:     1 (0.20%) 
+2015/08/04 02:01:40 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-11 
+2015/08/04 02:01:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2015/08/04 02:01:40 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-10 
+2015/08/04 02:01:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2015/08/04 02:01:43 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-9 
+2015/08/04 02:01:43 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2015/08/04 02:01:44 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-4 
+2015/08/04 02:01:44 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2015/08/04 02:01:48 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-2 
+2015/08/04 02:01:48 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-6 
+2015/08/04 02:01:48 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2015/08/04 02:01:48 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2015/08/04 02:01:49 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-7 
+2015/08/04 02:01:49 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-8 
+2015/08/04 02:01:49 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-1 
+2015/08/04 02:01:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2015/08/04 02:01:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2015/08/04 02:01:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2015/08/04 02:01:55 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-3 
+2015/08/04 02:01:55 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-5 
+2015/08/04 02:01:55 INFO  - jmeter.threads.JMeterThread: Stopping because end time detected by thread: Thread Group 1-12 
+2015/08/04 02:01:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2015/08/04 02:01:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2015/08/04 02:01:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2015/08/04 02:01:55 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2015/08/04 02:01:55 INFO  - jmeter.services.FileServer: Close: ../jmeter_cluster/three_watermarks.cluster 
+2015/08/04 02:01:55 INFO  - jmeter.reporters.Summariser: summary +     16 in    26s =    0.6/s Avg: 27783 Min:   969 Max: 56302 Err:     0 (0.00%) Active: 0 Started: 12 Finished: 12 
+2015/08/04 02:01:55 INFO  - jmeter.reporters.Summariser: summary =    522 in   618s =    0.8/s Avg: 14028 Min:   969 Max: 91159 Err:     1 (0.19%) 

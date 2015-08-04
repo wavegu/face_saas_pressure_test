@@ -1,0 +1,36 @@
+{
+	"http":
+	{
+		"ip"						:"192.168.0.16",
+		"port"						:"11189",
+		"url"						:"/face/v1/application/identity_verification/user/upload_database_image_batch",
+		"access-id" 				:"12345",
+		"signature" 				:"12345",
+		"request body cluster path" :"../jmeter_cluster/"
+	},
+
+	"test":
+	{
+		
+		"test name"					: "three_watermarks",
+		"test case list"			: ["three_watermarks"],
+		"default test time s"		: 600,
+		"set case test time s"		: 
+			{
+				
+			},
+		"thread number min"			: 1,
+		"thread number max"			: 12,
+		"thread number step"		: 1,
+		"time out ms" 				: "999999",
+		"sample jmx path"			: "sample_jmx.jmx"
+	},
+
+	"output":
+	{
+		"monitor log path" 			: "dstat/",
+		"jmeter jmx path" 			: "jmeter_jmx/",
+		"test result path"			: "jmeter_result/",
+		"test report path"			: "test_result/"
+	}
+}
